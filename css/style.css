@@ -127,14 +127,26 @@ main {
 .header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   color: #ff6500;
 }
-.header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+.header
+  .navbar
+  .navbar-collapse
+  .navbar-nav
+  .dropdown
+  .dropdown-menu
+  .dropdown-item {
   font-size: 1.125rem;
   font-weight: 500;
   color: #1c1c1c;
   line-height: 1.5;
   text-transform: none;
 }
-.header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+.header
+  .navbar
+  .navbar-collapse
+  .navbar-nav
+  .dropdown
+  .dropdown-menu
+  .dropdown-item:hover {
   background-color: rgba(173, 172, 172, 0.363);
   color: #ff6500;
   transition: all 0.3s ease;
@@ -151,7 +163,8 @@ main {
   border-radius: 50%;
   padding: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .header .navbar .icon-button.btn-search:hover {
@@ -179,7 +192,8 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .header .navbar .icon-button.btn-cart:hover {
@@ -254,7 +268,8 @@ main {
   border: 1px solid #ff6500;
   border-radius: 0.5rem;
   box-shadow: none;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .footer .footer-contact .btn-send-email:hover {
@@ -284,7 +299,7 @@ main {
 .carousel .carousel-item img {
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 100%;
 }
 .carousel .carousel-caption {
@@ -328,7 +343,8 @@ main {
   border: 1px solid #f5f5eb;
   border-radius: 25px;
   box-shadow: none;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .carousel .carousel-caption .carousel-caption_content button:hover {
@@ -354,7 +370,8 @@ main {
     border: 1px solid #f5f5eb;
     border-radius: 25px;
     box-shadow: none;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     cursor: pointer;
   }
   .carousel .carousel-caption .carousel-caption_content button:hover {
@@ -506,9 +523,9 @@ main {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top;
-     object-position: top;
+  object-position: top;
   transition: transform 0.4s;
 }
 .sale .sale1 .sale-item-background1:hover img,
@@ -554,7 +571,8 @@ main {
   border: 1px solid #f5f5eb;
   border-radius: 25px;
   box-shadow: none;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .sale .sale1 .sale-item-background1 .sale-item-content button:hover,
@@ -592,7 +610,8 @@ main {
     border: 1px solid #f5f5eb;
     border-radius: 25px;
     box-shadow: none;
-    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     cursor: pointer;
   }
   .sale .sale1 .sale-item-background1 .sale-item-content button:hover,
@@ -774,9 +793,9 @@ main {
   height: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   transition: transform 0.3s;
 }
 .categories .category-list .category-item .category-overlay {
@@ -839,7 +858,7 @@ main {
   }
   .categories .category-list .category-item img {
     -o-object-position: top;
-       object-position: top;
+    object-position: top;
   }
   .categories .category-list .category-item .category-overlay {
     height: 70px;
@@ -886,7 +905,8 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
 }
-.products .nav .nav-list .nav-item button.active, .products .nav .nav-list .nav-item button:hover {
+.products .nav .nav-list .nav-item button.active,
+.products .nav .nav-list .nav-item button:hover {
   background-color: #ff6500;
   color: #f5f5eb;
   border-color: #ff6500;
@@ -944,18 +964,36 @@ main {
   justify-content: space-between;
   text-align: left;
 }
-.products .tab-content .tab-pane .card .card-body .card-body-content .card-title {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-content
+  .card-title {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: capitalize;
 }
-.products .tab-content .tab-pane .card .card-body .card-body-content .card-price {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-content
+  .card-price {
   position: absolute;
   bottom: 10px;
   font-weight: 500;
   font-size: 1.25rem;
 }
-.products .tab-content .tab-pane .card .card-body .card-body-action button.btn-cart {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-action
+  button.btn-cart {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -967,24 +1005,57 @@ main {
   border-radius: 25px;
   padding: 1.5rem 2.2rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
-.products .tab-content .tab-pane .card .card-body .card-body-action button.btn-cart:hover {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-action
+  button.btn-cart:hover {
   background-color: #ff8433;
   color: #fff;
 }
-.products .tab-content .tab-pane .card .card-body .card-body-action button.btn-cart:focus {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-action
+  button.btn-cart:focus {
   outline: none;
   box-shadow: 0 0 0 0.2rem rgba(255, 101, 0, 0.5);
 }
-.products .tab-content .tab-pane .card .card-body .card-body-action button.btn-cart i,
-.products .tab-content .tab-pane .card .card-body .card-body-action button.btn-cart svg {
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-action
+  button.btn-cart
+  i,
+.products
+  .tab-content
+  .tab-pane
+  .card
+  .card-body
+  .card-body-action
+  button.btn-cart
+  svg {
   font-size: 1rem;
   display: block;
 }
 @media (max-width: 1024px) {
-  .products .tab-content .tab-pane .card .card-body .card-body-content .card-title {
+  .products
+    .tab-content
+    .tab-pane
+    .card
+    .card-body
+    .card-body-content
+    .card-title {
     font-size: 1.25rem;
   }
 }
@@ -1020,7 +1091,13 @@ main {
   z-index: 1;
   text-align: center;
 }
-.blog .carousel .carousel-inner .carousel-item .carousel-caption .blog-shoe img {
+.blog
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  .blog-shoe
+  img {
   width: 20%;
   height: auto;
   animation: moveImage 5s infinite;
@@ -1052,13 +1129,33 @@ main {
   height: auto;
   border-radius: 5px;
 }
-.blog .carousel .carousel-inner .carousel-item .carousel-caption .blogger .blogger-info {
+.blog
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  .blogger
+  .blogger-info {
   text-align: left;
 }
-.blog .carousel .carousel-inner .carousel-item .carousel-caption .blogger .blogger-info h3 {
+.blog
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  .blogger
+  .blogger-info
+  h3 {
   font-size: 1rem;
 }
-.blog .carousel .carousel-inner .carousel-item .carousel-caption .blogger .blogger-info h5 {
+.blog
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .carousel-caption
+  .blogger
+  .blogger-info
+  h5 {
   font-size: 0.875rem;
 }
 
@@ -1126,7 +1223,8 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
 }
-.details .shoeinfo .cart-buttons .btn-addToCart.active, .details .shoeinfo .cart-buttons .btn-addToCart:hover {
+.details .shoeinfo .cart-buttons .btn-addToCart.active,
+.details .shoeinfo .cart-buttons .btn-addToCart:hover {
   background-color: #ff6500;
   color: #f5f5eb;
   border-color: #ff6500;
@@ -1140,7 +1238,8 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
 }
-.details .shoeinfo .cart-buttons .btn-buyItNow.active, .details .shoeinfo .cart-buttons .btn-buyItNow:hover {
+.details .shoeinfo .cart-buttons .btn-buyItNow.active,
+.details .shoeinfo .cart-buttons .btn-buyItNow:hover {
   background-color: #ff8433;
   color: #f5f5eb;
   border-color: #ff6500;
@@ -1153,7 +1252,8 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
 }
-.details .shoeinfo .btn-size.active, .details .shoeinfo .btn-size:hover {
+.details .shoeinfo .btn-size.active,
+.details .shoeinfo .btn-size:hover {
   background-color: #ff6500;
   color: #f5f5eb;
   border-color: #ff6500;
@@ -1240,7 +1340,8 @@ main {
   border-radius: 25px;
   padding: 1.5rem 2.2rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
   cursor: pointer;
 }
 .related-products .card .card-body .card-body-action button.btn-cart:hover {
@@ -1307,8 +1408,9 @@ main {
   border-radius: 25px;
   padding: 0.5rem 1.7rem;
 }
-.signup .container .card .btn-create-account.active, .signup .container .card .btn-create-account:hover {
+.signup .container .card .btn-create-account.active,
+.signup .container .card .btn-create-account:hover {
   background-color: #ff8433;
   color: #f5f5eb;
   border-color: #ff6500;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
