@@ -1,0 +1,131 @@
+.categories {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: $primary-bg-color;
+
+  h2 {
+    font-size: $text-title;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: $text-base;
+    color: $dark-color;
+    margin-bottom: 40px;
+  }
+
+  .category-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    .category-item {
+      position: relative;
+      height: 55vh;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        transition: transform 0.3s;
+      }
+
+      .category-overlay {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        background-color: $primary-color;
+        opacity: 0.5;
+      }
+
+      .category-info {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        z-index: 2;
+        color: $light-color;
+        text-align: left;
+
+        h3 {
+          font-size: $text-2xl;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+
+        a {
+          font-size: $text-lg;
+          color: $light-color;
+          text-decoration: none;
+          position: relative;
+          display: inline-block;
+          padding-right: 20px;
+
+          &:hover {
+            color: $quaternary-color;
+          }
+        }
+      }
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+    }
+
+    .category-item:nth-child(1) {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .category-list {
+      .category-item {
+        height: 20vh;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+      font-size: $text-4xl;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    .category-list {
+      display: flex;
+      flex-direction: column;
+      .category-item {
+        height: 20vh;
+
+        img {
+          object-position: top;
+        }
+
+        .category-overlay {
+          height: 70px;
+        }
+
+        .category-info {
+          bottom: 10px;
+
+          h3 {
+            font-size: $text-base;
+            margin-bottom: 0;
+          }
+
+          a {
+            font-size: $text-sm;
+          }
+        }
+      }
+    }
+  }
+}
