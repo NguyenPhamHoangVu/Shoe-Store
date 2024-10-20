@@ -37,20 +37,3 @@ _(Lớp BootCamp Sáng 12 - Năm 2024 - Khoá Front-End)_
 </div>
 
 <hr>
-
-> Bài làm của Nhóm 5: Trương Thục Vân (Leader) và Nguyễn Phạm Hoàng Vũ.
-
-<table>
-	<tr>
-		<td align="center" valign="top">
-				<img loading="lazy" width="150" height="150" src="https://github.com/MeiCloudie.png?s=150">
-        <br>
-        <a href="https://github.com/MeiCloudie">Truong Thuc Van</a>
-		</td>
-		<td align="center" valign="top">
-				<img loading="lazy" width="150" height="150" src="https://github.com/NguyenPhamHoangVu.png?s=150">
-        <br>
-        <a href="https://github.com/NguyenPhamHoangVu">Nguyen Pham Hoang Vu</a>
-		</td>
-	</tr>
-</table>
