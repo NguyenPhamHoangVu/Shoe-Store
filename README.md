@@ -8,7 +8,7 @@
 
 3. Thực hành JavaScript (ES6).
 
-4. Thực hành API - Cách gọi data từ API cung cấp sẵn [ShoeShop](https://shop.cyberlearn.vn/swagger/index.html)
+4. Thực hành API - Cách gọi data từ API cung cấp sẵn [ShoeStore](https://shop.cyberlearn.vn/swagger/index.html)
 
 5. Thực hành SASS.
 
@@ -18,7 +18,7 @@
 
 # Thực hành với bài tập Shoe Shop
 
-- Logo thương hiệu Shoe Shop của Nhóm 5: Cyber Shoe Shop
+- Logo thương hiệu Shoe Store: Shoe Store
 
 <div align="center">
 	<picture>
