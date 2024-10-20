@@ -1,0 +1,19 @@
+@include typography;
+
+a {
+  color: $light-color;
+  @include textDecoration(none);
+
+  &:hover {
+    color: $secondary-color;
+    @include transition($duration: 0.5s);
+  }
+}
+
+.container {
+  @include container;
+}
+
+main {
+  padding-top: 80px;
+}
